@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.saimun{
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+}
+.manu ul{
+    display: inline-flex;
+    margin:  100px;
+}
+.manu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.logo img{
+    width: 200px;
+    margin-right: -8px;
+    margin-right: 45px;
+}
+.sign{
+    top: 40px;
+    right: 60px;
+    position: absolute;
+    text-decoration: underline;
+    color: azure;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    
+}
+.sign{
+    display: block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 40%;
+    left: 130px;
+    position: absolute;
+    color: aliceblue;
+}
+.text{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px -20px 30px;
+    line-height: 25px;
+    color: azure;
+}
+.p2{
+    width: 35%;
+    float: right;
+}
+.p2 img{
+    width: 100%;
+    margin-top:  -650px;
+    padding-left: 80px;
+}
+.reg1{
+ top: 305px;
+    left: 0;
+    position: absolute;
+    text-decoration: underline;
+    color: azure;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.pb{
+    margin-top: 30px;
+    padding-right: 40px;
+    display: inline-flex;
+} 
+.pbin{
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+    
+}
+.pbin .fa{
+    padding: 5px 0;
+    font-size: 40px;
+    right: 10px;
+    cursor: pointer;
+}
+.links{
+    left: 500px;
+    bottom: 5px;
+    position: absolute;
+    background:  linear-gradient(to right, #42455a, #19d7f8);
+}
+.links ul{
+    display: inline-flex;
+    margin: 25px auto;
+    text-align: center;
+}
+.links ul li{
+    list-style: none;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.links ul li .fa{
+    font-size: 25px;
+    color: azure;
+}
+.links ul li p{
+    margin-top: 15px;
+    font-size: 10px;
+    color: azure;
+}
+.sicon{
+    right: 72px;
+    bottom: 50px;
+    position: absolute;
+}
+.sicon ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.sicon ul li a{
+    color: antiquewhite;
+    border-radius: 500px solid antiquewhite;
+    border: 500px;
+    display: block;
+}
